@@ -1,0 +1,60 @@
+.trafficlight{
+  height:600px;
+  width:300px;
+  background-color:black;
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding:25px 0;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.light{
+  display:flex;
+  border-radius:150px;
+  flex-grow: 1;
+  width:150px;
+  margin:25px;
+}
+
+#red{
+  background-color:red;
+  cursor: pointer;
+}
+
+#yellow{
+  background-color:yellow;
+}
+
+#green{
+  background-color:green;
+  cursor: pointer;
+}
+
+.off{
+  opacity:0.07;
+}
+
+#Controls{
+  display:flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width:300px;
+  padding: 15px 0;
+}
+
+#Controls div{
+  width:50%;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: #282c34;
+  color:#ffffff;
+  padding: 10px 0;
+  margin: 0 5px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
