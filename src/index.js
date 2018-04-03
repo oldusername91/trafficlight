@@ -40,9 +40,9 @@ class TrafficLight extends React.Component {
   render() {
     return (
       <div className="trafficlight" >
-        <Light color={'green'}  on={this.state.green}  onClick={() => this.goGreen()} />
-        <Light color={'yellow'} on={this.state.yellow} />
         <Light color={'red'}    on={this.state.red}    onClick={() => this.goRed()}/>
+        <Light color={'yellow'} on={this.state.yellow} />
+        <Light color={'green'}  on={this.state.green}  onClick={() => this.goGreen()} />
       </div>
     );
   }
